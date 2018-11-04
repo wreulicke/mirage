@@ -13,8 +13,8 @@ group 'com.miragesql'
 version '2.1.0'
 
 compileJava.options.encoding = 'UTF-8'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = JavaVersion.current().majorVersion
+targetCompatibility = JavaVersion.current().majorVersion
 
 repositories {
     jcenter()
